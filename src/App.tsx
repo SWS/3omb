@@ -22,8 +22,8 @@ const Home = lazy(() => import('./views/Home'));
 const Cemetery = lazy(() => import('./views/Cemetery'));
 const Masonry = lazy(() => import('./views/Masonry'));
 const Pit = lazy(() => import('./views/Pit'));
-const SBS = lazy(() => import('./views/Sbs'));
-const Liquidity = lazy(() => import('./views/Liquidity'));
+// const SBS = lazy(() => import('./views/Sbs'));
+// const Liquidity = lazy(() => import('./views/Liquidity'));
 
 const NoMatch = () => (
   <h3 style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
@@ -58,7 +58,7 @@ const App: React.FC = () => {
             <Route path="/pit">
               <Pit />
             </Route>
-            <Route path="/sbs">
+            {/* <Route path="/sbs">
               <SBS />
             </Route>
             <Route path="/regulations">
@@ -66,7 +66,7 @@ const App: React.FC = () => {
             </Route>
             <Route path="/liquidity">
               <Liquidity />
-            </Route>
+            </Route> */}
             <Route path="*">
               <NoMatch />
             </Route>

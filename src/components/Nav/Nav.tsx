@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
   },
   toolbarTitle: {
-    fontFamily: '"Amarante", cursive',
+    fontFamily: '"Gilroy"',
     fontSize: '30px',
     flexGrow: 1,
   },
@@ -105,15 +105,18 @@ const Nav = () => {
                 Home
               </Link>
               <Link color="textPrimary" to="/cemetery" className={classes.link}>
-                Cemetery
+                3Farms
               </Link>
               <Link color="textPrimary" to="/masonry" className={classes.link}>
-                Masonry
+                3Boardroom
               </Link>
               <Link color="textPrimary" to="/pit" className={classes.link}>
-                Pit
+                3Bonds
               </Link>
-              <Link color="textPrimary" to="/sbs" className={classes.link}>
+              <Link color="textPrimary" to="/pit" className={classes.link}>
+                3rebates
+              </Link>
+              {/* <Link color="textPrimary" to="/sbs" className={classes.link}>
                 SBS
               </Link>
               <Link color="textPrimary" to="/liquidity" className={classes.link}>
@@ -121,7 +124,7 @@ const Nav = () => {
               </Link>
               <Link color="textPrimary" to="/regulations" className={classes.link}>
                 Regulations
-              </Link>
+              </Link> */}
               <a href="https://docs.tomb.finance" className={classes.link}>
                 Docs
               </a>
