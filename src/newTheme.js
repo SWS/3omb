@@ -5,17 +5,17 @@ const newTheme = createMuiTheme({
   palette: {
     type: 'dark',
     text: {
-      primary: '#FFF',
+      primary: '#E6E9EE',
     },
     background: {
-      default: '#121212',
-      paper: 'rgba(255, 255, 255, 0.9)',
+      default: 'transparent',
+      paper: 'transparent',
     },
     primary: {
-      light: '#757ce8',
-      main: '#571eb1',
-      dark: '#2c2560',
-      contrastText: '#000',
+      light: '#757CE8',
+      main: '#571EB1',
+      dark: '#571EB1',
+      contrastText: '#16191E',
     },
     secondary: {
       light: '#ff7961',
@@ -30,9 +30,21 @@ const newTheme = createMuiTheme({
     },
   },
   typography: {
-    color: '#16191E',
+    color: '#E6E9EE',
     fontFamily: ['"Gilroy"', 'sans-serif'].join(','),
   },
+  components: {
+      MuiButton: {
+          variants: [
+              {
+                  props: { variant: "standard" },
+                  style: {
+                      border: "1px solid var(--white)"
+                  }
+              }
+          ]
+      }
+  }
 });
 
 export default newTheme;

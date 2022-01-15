@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '15px',
     paddingBottom: '15px',
     width: '100%',
-    color: '#16191E',
+    color: 'var(--white)',
     backgroundColor: 'transparent',
     textAlign: 'center',
     height: '1.3rem',
@@ -42,10 +42,10 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Grid container>
           <Grid item xs={6}>
-            <Typography variant="body2" color="#16191E" align="left">
+            <Typography variant="body2" color="textPrimary" align="left">
               {'Copyright © '}
               <Link color="inherit" href="/">
-                Tomb Finance
+                3omb Finance
               </Link>{' '}
               {new Date().getFullYear()}
             </Typography>

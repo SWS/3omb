@@ -1,3 +1,10 @@
+:root {
+    --black: #16191E;
+    --white: #E6E9EE;
+    --accent: #571EB1;
+    --accent-light: #757CE8;
+}
+
 body,
 html,
 h1,
@@ -24,7 +31,7 @@ body {
 .MuiTypography-body1,
 .MuiPaper-root,
 .MuiPaper-root h2 {
-  color: #16191E !important;
+  color: var(--white) !important;
 }
 
 body {
@@ -51,14 +58,11 @@ footer .a:hover {
 }
 
 .MuiToolbar-regular {
-  color: #16191E;
+  color: var(--white);
 }
 
-.MuiButton-containedPrimary,
-.MuiButton-containedPrimary:hover,
-.MuiListItem-button:hover,
-.MuiButtonBase-root:hover {
-  color: #fff !important;
+.MuiButton-containedPrimary {
+    color: var(--white) !important;
 }
 
 code {

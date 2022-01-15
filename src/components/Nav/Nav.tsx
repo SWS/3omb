@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   appBar: {
-    color: '#16191E',
+    color: 'var(--white)',
     'background-color': 'transparent',
     // borderBottom: `1px solid ${theme.palette.divider}`,
     padding: '10px',
@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
   },
   link: {
     textTransform: 'uppercase',
-    color: '#16191E',
+    color: 'var(--white)',
     fontSize: '14px',
     margin: theme.spacing(1, 2),
     textDecoration: 'none',
@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
   },
   brandLink: {
     textDecoration: 'none',
-    color: '#16191E',
+    color: 'var(--white)',
     '&:hover': {
       textDecoration: 'none',
     },
