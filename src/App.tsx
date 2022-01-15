@@ -21,6 +21,7 @@ import { RefreshContextProvider } from './contexts/RefreshContext';
 const Home = lazy(() => import('./views/Home'));
 const Cemetery = lazy(() => import('./views/Cemetery'));
 const Masonry = lazy(() => import('./views/Masonry'));
+const Rebates = lazy(() => import('./views/Rebates'));
 const Pit = lazy(() => import('./views/Pit'));
 // const SBS = lazy(() => import('./views/Sbs'));
 // const Liquidity = lazy(() => import('./views/Liquidity'));
@@ -54,6 +55,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/masonry">
               <Masonry />
+            </Route>
+            <Route path="/rebates">
+              <Rebates />
             </Route>
             <Route path="/pit">
               <Pit />

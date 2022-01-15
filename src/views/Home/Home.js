@@ -163,14 +163,14 @@ const Home = () => {
 
         </Grid>
 
-        <Grid container spacing={3}>
+        {/* <Grid container spacing={3}>
     <Grid item  xs={12} sm={12} justify="center"  style={{ margin: '12px', display: 'flex' }}>
             <Alert severity="warning" style={{ backgroundColor: "transparent", border: "1px solid var(--white)" }}>
               <b>
       Please visit our <StyledLink target="_blank" href="https://docs.tomb.finance">documentation</StyledLink> before purchasing TOMB or TSHARE!</b>
             </Alert>
         </Grid>
-        </Grid>
+        </Grid> */}
 
         {/* TVL */}
         <Grid item xs={12} sm={4}>
@@ -214,8 +214,8 @@ const Home = () => {
         <Grid item xs={12} sm={4}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid var(--white)" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
-              <h2>TOMB</h2>
-              <Button
+              <h2>3OMB</h2>
+              {/* <Button
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TOMB');
                 }}
@@ -225,7 +225,7 @@ const Home = () => {
               >
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />
-              </Button>
+              </Button> */}
               <Box mt={2} style={{ backgroundColor: "transparent !important" }}>
                 <CardIcon style={{ backgroundColor: "transparent !important" }}>
                   <TokenSymbol symbol="TOMB" style={{ backgroundColor: "transparent !important" }} />
@@ -253,8 +253,8 @@ const Home = () => {
         <Grid item xs={12} sm={4}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid var(--white)" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
-              <h2>TSHARE</h2>
-              <Button
+              <h2>3SHARES</h2>
+              {/* <Button
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TSHARE');
                 }}
@@ -264,7 +264,7 @@ const Home = () => {
               >
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />
-              </Button>
+              </Button> */}
               <Box mt={2}>
                 <CardIcon>
                   <TokenSymbol symbol="TSHARE" />
@@ -290,8 +290,8 @@ const Home = () => {
         <Grid item xs={12} sm={4}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid var(--white)" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
-              <h2>TBOND</h2>
-              <Button
+              <h2>3BOND</h2>
+              {/* <Button
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TBOND');
                 }}
@@ -301,7 +301,7 @@ const Home = () => {
               >
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />
-              </Button>
+              </Button> */}
               <Box mt={2}>
                 <CardIcon>
                   <TokenSymbol symbol="TBOND" />

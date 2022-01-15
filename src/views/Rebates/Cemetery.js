@@ -42,7 +42,7 @@ const Cemetery = () => {
       <Page>
         <Route exact path={path}>
           <BackgroundImage />
-          {!!account ? (
+          {/* {!!account ? (
             <Container maxWidth="lg">
               <Typography color="textPrimary" align="center" variant="h3" gutterBottom>
                 Cemetery
@@ -100,7 +100,7 @@ const Cemetery = () => {
             </Container>
           ) : (
             <UnlockWallet />
-          )}
+          )} */}
         </Route>
         <Route path={`${path}/:bankId`}>
           <BackgroundImage />

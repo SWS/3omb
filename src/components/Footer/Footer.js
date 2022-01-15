@@ -43,16 +43,17 @@ const Footer = () => {
         <Grid container>
           <Grid item xs={6}>
             <Typography variant="body2" color="textPrimary" align="left">
-              {'Copyright © '}
-              <Link color="inherit" href="/">
-                3omb Finance
-              </Link>{' '}
+              {'Copyright © 3omb Finance '}
               {new Date().getFullYear()}
+              {', forked from '}
+              <Link color="inherit" href="https://tomb.finance">
+                Tomb.finance
+              </Link>{' '}
             </Typography>
           </Grid>
           <Grid item xs={6} style={{ textAlign: 'right' }}>
             <a
-              href="https://twitter.com/tombfinance"
+              href="https://twitter.com/2ombfinance"
               rel="noopener noreferrer"
               target="_blank"
               className={classes.link}
@@ -60,25 +61,25 @@ const Footer = () => {
               <img alt="twitter" src={TwitterImage} className={classes.img} />
             </a>
             <a
-              href="https://github.com/tombfinance/tombfinance-frontend"
+              href="https://github.com/2omb"
               rel="noopener noreferrer"
               target="_blank"
               className={classes.link}
             >
               <img alt="github" src={GithubImage} className={classes.img} />
             </a>
-            <a href="https://t.me/tombfinance" rel="noopener noreferrer" target="_blank" className={classes.link}>
+            <a href="https://t.me/community2ombchat" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="telegram" src={TelegramImage} className={classes.img} />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCGf87DxPzLXwPrfYpXIkaLQ"
+              href="https://www.youtube.com/results?search_query=2omb+finance"
               rel="noopener noreferrer"
               target="_blank"
               className={classes.link}
             >
               <img alt="youtube" src={YoutubeImage} className={classes.img} />
             </a>
-            <a href="http://discord.tomb.finance/" rel="noopener noreferrer" target="_blank" className={classes.link}>
+            <a href="https://discord.gg/pPpc9p5NS8" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="discord" src={DiscordImage} className={classes.img} />
             </a>
           </Grid>

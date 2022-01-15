@@ -108,7 +108,7 @@ const Nav = () => {
                 3Farms
               </Link>
               <Link color="textPrimary" to="/masonry" className={classes.link}>
-                3Boardroom
+                3Room
               </Link>
               <Link color="textPrimary" to="/rebates" className={classes.link}>
                 3Rebates
@@ -122,6 +122,9 @@ const Nav = () => {
               <Link color="textPrimary" to="/regulations" className={classes.link}>
                 Regulations
               </Link> */}
+              <a href="https://snapshot.org/#/forgiving.forg.eth" className={classes.link}>
+                Governance
+              </a>
               <a href="https://docs.tomb.finance" className={classes.link}>
                 Docs
               </a>
