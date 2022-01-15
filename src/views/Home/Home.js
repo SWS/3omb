@@ -219,9 +219,9 @@ const Home = () => {
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TOMB');
                 }}
-                color="primary"
+                color="secondary"
                 variant="outlined"
-                style={{ position: 'absolute', top: '10px', right: '10px', borderColor: "var(--accent)" }}
+                style={{ position: 'absolute', top: '10px', right: '10px', borderColor: "var(--accent-light)" }}
               >
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />
@@ -258,9 +258,9 @@ const Home = () => {
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TSHARE');
                 }}
-                color="primary"
+                color="secondary"
                 variant="outlined"
-                style={{ position: 'absolute', top: '10px', right: '10px', borderColor: "var(--accent)" }}
+                style={{ position: 'absolute', top: '10px', right: '10px', borderColor: "var(--accent-light)" }}
               >
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />
@@ -295,9 +295,9 @@ const Home = () => {
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TBOND');
                 }}
-                color="primary"
+                color="secondary"
                 variant="outlined"
-                style={{ position: 'absolute', top: '10px', right: '10px', borderColor: "var(--accent)" }}
+                style={{ position: 'absolute', top: '10px', right: '10px', borderColor: "var(--accent-light)" }}
               >
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />

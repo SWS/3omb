@@ -61,8 +61,14 @@ footer .a:hover {
   color: var(--white);
 }
 
+.MuiButton-contained {
+    color: var(--black) !important;
+    background-color: var(--white) !important;
+}
+
 .MuiButton-containedPrimary {
     color: var(--white) !important;
+    background-color: var(--accent) !important;
 }
 
 code {
