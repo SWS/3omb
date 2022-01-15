@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: '15px',
     paddingBottom: '15px',
     width: '100%',
-    color: 'white',
-    backgroundColor: '#121212',
+    color: '#16191E',
+    backgroundColor: 'transparent',
     textAlign: 'center',
     height: '1.3rem',
     [theme.breakpoints.down('xs')]: {
@@ -42,7 +42,7 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Grid container>
           <Grid item xs={6}>
-            <Typography variant="body2" color="textSecondary" align="left">
+            <Typography variant="body2" color="#16191E" align="left">
               {'Copyright © '}
               <Link color="inherit" href="/">
                 Tomb Finance

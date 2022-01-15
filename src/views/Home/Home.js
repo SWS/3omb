@@ -29,9 +29,13 @@ import useTombFinance from '../../hooks/useTombFinance';
 
 const BackgroundImage = createGlobalStyle`
   body {
-    background: url(${HomeImage}) no-repeat !important;
-    background-size: cover !important;
-  }
+    background-color: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23E3E6E9' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+* {
+    border-radius: 0 !important;
+}
 `;
 
 const useStyles = makeStyles((theme) => ({
@@ -143,9 +147,9 @@ const Home = () => {
         </Grid>
         {/* Explanation text */}
         <Grid item xs={12} sm={8}>
-          <Paper>
+          <Paper style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid #16191E" }}>
             <Box p={4}>
-              <h2>Welcome to Tomb Finance</h2>
+              <h2>Welcome to 3omb Finance</h2>
               <p>The first algorithmic stablecoin on Fantom Opera, pegged to the price of 1 FTM via seigniorage.</p>
               <p>
                 Stake your TOMB-FTM LP in the Cemetery to earn TSHARE rewards.
@@ -160,7 +164,7 @@ const Home = () => {
 
         <Grid container spacing={3}>
     <Grid item  xs={12} sm={12} justify="center"  style={{ margin: '12px', display: 'flex' }}>
-            <Alert variant="filled" severity="warning">
+            <Alert variant="transparent" severity="warning" style={{ border: "1px solid #16191E" }}>
               <b>
       Please visit our <StyledLink target="_blank" href="https://docs.tomb.finance">documentation</StyledLink> before purchasing TOMB or TSHARE!</b>
             </Alert>
@@ -169,7 +173,7 @@ const Home = () => {
 
         {/* TVL */}
         <Grid item xs={12} sm={4}>
-          <Card>
+          <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid #16191E" }}>
             <CardContent align="center">
               <h2>Total Value Locked</h2>
               <CountUp style={{ fontSize: '25px' }} end={TVL} separator="," prefix="$" />
@@ -179,8 +183,8 @@ const Home = () => {
 
         {/* Wallet */}
         <Grid item xs={12} sm={8}>
-          <Card style={{ height: '100%' }}>
-            <CardContent align="center" style={{ marginTop: '2.5%' }}>
+          <Card style={{ height: '100%', backgroundColor: "transparent", boxShadow: "none", border: "1px solid #16191E", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+            <CardContent align="center">
               {/* <h2 style={{ marginBottom: '20px' }}>Wallet Balance</h2> */}
               <Button color="primary" href="/masonry" variant="contained" style={{ marginRight: '10px' }}>
                 Stake Now
@@ -207,7 +211,7 @@ const Home = () => {
 
         {/* TOMB */}
         <Grid item xs={12} sm={4}>
-          <Card>
+          <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid #16191E" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
               <h2>TOMB</h2>
               <Button
@@ -221,9 +225,9 @@ const Home = () => {
                 +&nbsp;
                 <img alt="metamask fox" style={{ width: '20px' }} src={MetamaskFox} />
               </Button>
-              <Box mt={2}>
-                <CardIcon>
-                  <TokenSymbol symbol="TOMB" />
+              <Box mt={2} style={{ backgroundColor: "transparent !important" }}>
+                <CardIcon style={{ backgroundColor: "transparent !important" }}>
+                  <TokenSymbol symbol="TOMB" style={{ backgroundColor: "transparent !important" }} />
                 </CardIcon>
               </Box>
               Current Price
@@ -246,7 +250,7 @@ const Home = () => {
 
         {/* TSHARE */}
         <Grid item xs={12} sm={4}>
-          <Card>
+          <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid #16191E" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
               <h2>TSHARE</h2>
               <Button
@@ -283,7 +287,7 @@ const Home = () => {
 
         {/* TBOND */}
         <Grid item xs={12} sm={4}>
-          <Card>
+          <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "1px solid #16191E" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
               <h2>TBOND</h2>
               <Button

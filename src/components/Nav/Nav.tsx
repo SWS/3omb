@@ -32,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   appBar: {
-    color: '#e0e3bd',
-    'background-color': '#121212',
+    color: '#16191E',
+    'background-color': 'transparent',
     // borderBottom: `1px solid ${theme.palette.divider}`,
     padding: '10px',
     marginBottom: '3rem',
@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
   },
   link: {
     textTransform: 'uppercase',
-    color: '#e0e3bd',
+    color: '#16191E',
     fontSize: '14px',
     margin: theme.spacing(1, 2),
     textDecoration: 'none',
@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
   },
   brandLink: {
     textDecoration: 'none',
-    color: '#e0e3bd',
+    color: '#16191E',
     '&:hover': {
       textDecoration: 'none',
     },
@@ -90,18 +90,18 @@ const Nav = () => {
   };
 
   return (
-    <AppBar position="sticky" elevation={0} className={classes.appBar}>
+    <AppBar position="static" elevation={0} className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
         {matches ? (
           <>
             <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
               {/* <a className={ classes.brandLink } href="/">Tomb Finance</a> */}
               <Link to="/" color="inherit" className={classes.brandLink}>
-                Tomb Finance
+                3omb Finance
               </Link>
             </Typography>
             <Box mr={5}>
-              <Link color="textPrimary" to="/" className={classes.link}>
+              <Link color="color" to="/" className={classes.link}>
                 Home
               </Link>
               <Link color="textPrimary" to="/cemetery" className={classes.link}>

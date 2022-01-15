@@ -24,7 +24,7 @@ body {
 .MuiTypography-body1,
 .MuiPaper-root,
 .MuiPaper-root h2 {
-  color: #2c2560 !important;
+  color: #16191E !important;
 }
 
 body {
@@ -34,9 +34,6 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-position: center center !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
 }
 
 
@@ -54,7 +51,7 @@ footer .a:hover {
 }
 
 .MuiToolbar-regular {
-  color: #e0e3bd;
+  color: #16191E;
 }
 
 .MuiButton-containedPrimary,
