@@ -42,13 +42,13 @@ const Cemetery = () => {
       <Page>
         <Route exact path={path}>
           <BackgroundImage />
-          {/* {!!account ? (
+          {!!account ? (
             <Container maxWidth="lg">
               <Typography color="textPrimary" align="center" variant="h3" gutterBottom>
-                Cemetery
+                3Rebates
               </Typography>
 
-              <Box mt={5}>
+              {/* <Box mt={5}>
                 <div hidden={activeBanks.filter((bank) => bank.sectionInUI === 2).length === 0}>
                   <Typography color="textPrimary" variant="h4" gutterBottom>
                     Earn TSHARE by staking LP
@@ -96,11 +96,11 @@ const Cemetery = () => {
                       ))}
                   </Grid>
                 </div>
-              </Box>
+              </Box> */}
             </Container>
           ) : (
             <UnlockWallet />
-          )} */}
+          )}
         </Route>
         <Route path={`${path}/:bankId`}>
           <BackgroundImage />

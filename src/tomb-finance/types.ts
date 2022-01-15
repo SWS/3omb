@@ -10,6 +10,7 @@ export interface BankInfo {
   depositTokenName: ContractName;
   earnTokenName: ContractName;
   sort: number;
+  multiplier: string;
   finished: boolean;
   closedForStaking: boolean;
 }

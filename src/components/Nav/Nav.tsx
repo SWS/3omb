@@ -104,10 +104,10 @@ const Nav = () => {
               <Link color="color" to="/" className={classes.link}>
                 Home
               </Link>
-              <Link color="textPrimary" to="/cemetery" className={classes.link}>
+              <Link color="textPrimary" to="/farms" className={classes.link}>
                 3Farms
               </Link>
-              <Link color="textPrimary" to="/masonry" className={classes.link}>
+              <Link color="textPrimary" to="/boardroom" className={classes.link}>
                 3Room
               </Link>
               <Link color="textPrimary" to="/rebates" className={classes.link}>
@@ -122,10 +122,10 @@ const Nav = () => {
               <Link color="textPrimary" to="/regulations" className={classes.link}>
                 Regulations
               </Link> */}
-              <a href="https://snapshot.org/#/forgiving.forg.eth" className={classes.link}>
+              <a href="https://snapshot.org/#/forgiving.forg.eth" target="_blank" className={classes.link}>
                 Governance
               </a>
-              <a href="https://docs.tomb.finance" className={classes.link}>
+              <a href="https://docs.tomb.finance" target="_blank" className={classes.link}>
                 Docs
               </a>
             </Box>
@@ -143,7 +143,7 @@ const Nav = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              Tomb Finance
+              3omb Finance
             </Typography>
 
             <Drawer

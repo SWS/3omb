@@ -76,7 +76,7 @@ const Masonry = () => {
       {!!account ? (
         <>
           <Typography color="textPrimary" align="center" variant="h3" gutterBottom>
-            Masonry
+            3Room
           </Typography>
           <Box mt={5}>
             <Grid container justify="center" spacing={3}>
