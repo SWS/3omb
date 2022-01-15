@@ -110,11 +110,8 @@ const Nav = () => {
               <Link color="textPrimary" to="/masonry" className={classes.link}>
                 3Boardroom
               </Link>
-              <Link color="textPrimary" to="/pit" className={classes.link}>
-                3Bonds
-              </Link>
-              <Link color="textPrimary" to="/pit" className={classes.link}>
-                3rebates
+              <Link color="textPrimary" to="/rebates" className={classes.link}>
+                3Rebates
               </Link>
               {/* <Link color="textPrimary" to="/sbs" className={classes.link}>
                 SBS
