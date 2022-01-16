@@ -44,6 +44,7 @@ const BackgroundImage = createGlobalStyle`
 
 * {
     border-radius: 0 !important;
+    box-shadow: none !important;
 }
 `;
 
@@ -125,8 +126,8 @@ const Masonry = () => {
             </Grid>
 
             <Grid container justify="center">
-              <Box mt={3} style={{ width: '600px' }}>
-                <Alert variant="filled" severity="warning">
+              <Box mt={3} style={{ width: '525px' }}>
+                <Alert variant="transparent" severity="info">
                   Staked TSHAREs can only be withdrawn after 6 epochs since deposit.
                 </Alert>
               </Box>

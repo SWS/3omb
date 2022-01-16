@@ -110,9 +110,18 @@ const Nav = () => {
               <Link color="textPrimary" to="/boardroom" className={classes.link}>
                 3Room
               </Link>
+              <Link color="textPrimary" to="/bonds" className={classes.link}>
+                3Bonds
+              </Link>
               <Link color="textPrimary" to="/rebates" className={classes.link}>
                 3Rebates
               </Link>
+              <Link color="textPrimary" to="/rebates" className={classes.link}>
+                Treasury
+              </Link>
+              <a href="/" target="_blank" className={classes.link}>
+                Vaults
+              </a>
               {/* <Link color="textPrimary" to="/sbs" className={classes.link}>
                 SBS
               </Link>

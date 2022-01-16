@@ -7,7 +7,7 @@ import TokenSymbol from '../../components/TokenSymbol';
 const CemeteryCard = ({ bank }) => {
   return (
     <Grid item xs={12} md={4} lg={4}>
-      <Card variant="outlined">
+      <Card variant="outlined" style={{ border: '1px solid var(--white)' }}>
         <CardContent>
           <Box style={{ position: 'relative' }}>
             <Box
@@ -39,7 +39,7 @@ const CemeteryCard = ({ bank }) => {
           </Box>
         </CardContent>
         <CardActions style={{ justifyContent: 'flex-end' }}>
-          <Button color="primary" size="small" variant="contained" component={Link} to={`/cemetery/${bank.contract}`}>
+          <Button color="primary" size="small" variant="contained" component={Link} to={`/farms/${bank.contract}`}>
             View
           </Button>
         </CardActions>

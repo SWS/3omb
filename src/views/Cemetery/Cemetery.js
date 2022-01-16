@@ -83,7 +83,7 @@ const Cemetery = () => {
                 </div> */}
 
                 <div hidden={activeBanks.filter((bank) => bank.sectionInUI === 0).length === 0}>
-                  <Typography color="textPrimary" variant="h4" gutterBottom style={{ marginTop: '20px' }}>
+                  <Typography color="textPrimary" variant="h4" gutterBottom style={{ marginTop: '35px', marginBottom: '30px' }}>
                     Genesis Pools
                   </Typography>
                   <Grid container spacing={3}>
