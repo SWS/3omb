@@ -18,7 +18,7 @@ const CemeteryCard = ({ bank }) => {
                 height: '48px',
                 width: '48px',
                 borderRadius: '40px',
-                backgroundColor: 'white',
+                backgroundColor: 'transparent',
                 alignItems: 'center',
                 display: 'flex',
                 justifyContent: 'center',
@@ -40,7 +40,7 @@ const CemeteryCard = ({ bank }) => {
         </CardContent>
         <CardActions style={{ justifyContent: 'flex-end' }}>
           <Button color="primary" size="small" variant="contained" component={Link} to={`/farms/${bank.contract}`}>
-            View
+            Stake
           </Button>
         </CardActions>
       </Card>
