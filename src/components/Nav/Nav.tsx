@@ -116,7 +116,7 @@ const Nav = () => {
               <Link color="textPrimary" to="/rebates" className={classes.link}>
                 3Rebates
               </Link>
-              <Link color="textPrimary" to="/rebates" className={classes.link}>
+              <Link color="textPrimary" to="/treasury" className={classes.link}>
                 Treasury
               </Link>
               <a href="/" target="_blank" className={classes.link}>
