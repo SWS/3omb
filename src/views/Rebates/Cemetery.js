@@ -47,6 +47,8 @@ const Cemetery = () => {
   const scalingFactor = useMemo(() => (cashStat ? Number(cashStat.priceInDollars).toFixed(4) : null), [cashStat]);
   const activeBanks = banks.filter((bank) => !bank.finished);
 
+  console.log(cashStat)
+
   const rebateStats = useRebateTreasury()
   console.log(rebateStats)
 
